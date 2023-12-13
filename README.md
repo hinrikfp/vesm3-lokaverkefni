@@ -5,3 +5,7 @@ verkefnið sem ég gerði er gróðurhúsar og sólar panel stýrikerfi sem mæl
 
 ![circuit diagram](https://github.com/hinrikfp/vesm3-lokaverkefni/blob/main/circuit.svg)
 
+![esp with soil sensor and servo connected](https://github.com/hinrikfp/vesm3-lokaverkefni/blob/main/IMG_3532.jpg)
+
+https://drive.google.com/file/d/1LOFXYiJNOa53rkoNjpzBQU1xcAUyFkOI/view?usp=sharing
+
