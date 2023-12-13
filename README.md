@@ -10,7 +10,7 @@ annar esp fær upplýsingar frá fyrsta með espnow og kveikjir á dælu til að
 
 ![esp with soil sensor and servo connected](https://github.com/hinrikfp/vesm3-lokaverkefni/blob/main/IMG_3532.jpg)
 
-https://drive.google.com/file/d/1LOFXYiJNOa53rkoNjpzBQU1xcAUyFkOI/view?usp=sharing
+[lítið myndband af frumgerð](https://drive.google.com/file/d/1LOFXYiJNOa53rkoNjpzBQU1xcAUyFkOI/view?usp=sharing)
 
 ```
 
