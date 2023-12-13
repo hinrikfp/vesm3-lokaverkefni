@@ -12,6 +12,35 @@ annar esp fær upplýsingar frá fyrsta með espnow og kveikjir á dælu til að
 
 https://drive.google.com/file/d/1LOFXYiJNOa53rkoNjpzBQU1xcAUyFkOI/view?usp=sharing
 
+```
+
+       ║    WiFi
+ NETIÐ ║╺╺╺╺╺╺╺╺┓
+       ║        ╏
+═══════╝        ╏
+           ┌──────────┐
+ ┏━━━┓     │          │      ▗▄▄▄▄▄▖
+ ┃LDR┃━━━━━│ ESP32 #1 │━━━━━━▐SERVO▌
+ ┗━━━┛     │          │      ▝▀▀▀▀▀▘
+           └┃─────────┘
+            ┃    ╎
+ ┏━━━━━━━━━━┗┓   ╎
+ ┃SOIL SENSOR┃   ╎
+ ┗━━━━━━━━━━━┛   ╎
+                 ╎ESPNow
+                 ╎       ┌──────────┐
+                 ╎       │          │
+                 └╶╶╶╶╶╶>│ ESP32 #2 │
+                         │          │
+                         └──┃────┃──┘
+                            ┃    ┃
+                    ▗▄▄▄▄▖  ┃    ┃ ▗▄▄▄▄▄▖
+                    ▐LJÓS▌━━┛    ┗━▐PUMPA▌
+                    ▝▀▀▀▀▘         ▝▀▀▀▀▀▘
+
+
+```
+
 kóði fyrir fyrsta ESP sem tengist við wifi, reiknar staðsetningu sólar, snýr servóinum og birtir vefsíðuna: [hér](https://github.com/hinrikfp/vesm3-lokaverkefni/blob/main/lokaverkefni.py)
 
 kóði fyrir annan ESP sem talar við fyrsta ESP og kveikjir/slekkur á dælu eða ljósi: [hér](https://github.com/hinrikfp/vesm3-lokaverkefni/blob/main/lokaverk-recv.py)
