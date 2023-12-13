@@ -45,6 +45,12 @@ kóði fyrir fyrsta ESP sem tengist við wifi, reiknar staðsetningu sólar, sn�
 
 kóði fyrir annan ESP sem talar við fyrsta ESP og kveikjir/slekkur á dælu eða ljósi: [hér](https://github.com/hinrikfp/vesm3-lokaverkefni/blob/main/lokaverk-recv.py)
 
+## heimildir
+
+[servo library](https://github.com/Freenove/Freenove_ESP32_S3_WROOM_Board/blob/main/Python/Python_Libraries/myservo.py)
+
+[formúlur fyrir staðsetningu sólar](https://www.omnicalculator.com/physics/sun-angle)
+
 
 
 
