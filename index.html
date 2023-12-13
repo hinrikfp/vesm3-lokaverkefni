@@ -1,0 +1,20 @@
+{% args moisture, light, azimuth %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta http-equiv="refresh" content="4" >
+</head>
+<body>
+    <h1>hello lmao</h1>
+    <h3>moisture: {{moisture}}</h3>
+    <h3>light level: {{light}}</h3>
+    <h3>azimuth: {{azimuth}}</h3>
+    <form action="/changelat" method="POST">
+        <h3>breyta latitude: <input type="number" step="0.01" name="newlat" required></h3>
+        <input type="submit" value="change latitude">
+    </form>
+</body>
+</html>
